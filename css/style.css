@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/* Layout CSS Rules*/
+
+	/*body*/
+		body {
+			background: #ccc;
+			font: 90% "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+			text-align: left;
+			margin: 3%;
+			padding: 0px;
+			height:100%;
+			width: 100%;
+			}
+					
+		#container{
+			width: 80%;}
+		
+		ol {
+			list-style-type: roman;
+			
+			}
+				
+		li{
+			padding: 1%;
+			}
+	

@@ -1,0 +1,336 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* CSS Reset */
+
+	/* http://meyerweb.com/eric/tools/css/reset/ 
+	   v2.0 | 20110126
+	   License: none (public domain)
+	*/
+	
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	body {
+		line-height: 1;
+		text-align: center;
+		
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+	strong { font-weight: bold; }
+
+/* End CSS Reset */	
+
+
+/* Layout CSS Rules*/
+
+	/*body*/
+		body {
+					background: #8B8386;
+					font: 90% "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+					text-align: left;
+					margin: 0px;
+					padding: 0px;
+					height:100%
+					}
+		
+	/*container*/
+		#container {
+					padding: 0px;
+					
+					height:100%;
+					min-height: 1200px;
+					width: 1024px;
+					margin-top: auto;
+					margin-right: auto;
+					margin-bottom: 0px;
+					margin-left: auto;
+					position: relative; 
+					display:block; 
+					overflow:hidden;
+					background-color: #fff;		
+					box-shadow: 0px 0px 8px 0px  #191970;
+					}
+					
+	/*h1*/
+		h1 {
+					color: #800000;
+					font: 180%;
+					text-align: left;
+					}
+	/*h2*/
+		h2 {
+					color: #800000;
+					font: 130%;
+					text-align: center;
+					}
+	/*h3*/
+		h3 {
+					color: #800000;
+					font: 120%;
+					margin: 0px;
+					text-align: center;
+					}
+		
+		.centerph{
+					text-align: center;
+					}
+	/*img*/		
+		img {
+					border: none;
+					margin: 1px;
+					padding: 1px;
+					}
+					
+	/*sm*/
+		#smicon {
+					text-align:right;
+					}
+		
+	/*table*/
+		table {
+					background-color: #ffffff;
+					border: none;
+					margin: 0px;
+					padding: 0px;
+					}
+		
+		ul{
+					list-style-type: none;
+					padding: 0px;
+					margin: 0px;
+					}
+		
+	/*li*/
+		li {
+					color: #000000;
+					font: 100% ;
+					margin-left: 10px;
+					text-align: left;
+					}
+		
+		.floatr{
+					margin: 0px 0px 0px 10px;
+					float: right;
+					}	
+		.floatl{
+					margin: 0px 35px 0px 0px;
+					float: left;
+					}	
+					
+	/*table data*/
+		td {
+					background-color: #ffffff;
+					border:  none;
+					-moz-border-radius: 10px;
+					border-radius: 10px;
+					margin: 0px;
+					padding: 0px;
+					width: 65px;
+					}
+	
+	/*center*/
+		#center{
+					text-align: center;
+					}
+		
+	
+		
+	/*header*/
+		#header {
+					box-shadow: 0px 0px 8px 0px  #191970;
+					background-color: #ffffff;
+					padding: 0px;
+					margin: 0px 0px 10px 0px;
+					text-align: left;
+					width:auto; 
+					display:block; 
+					height:90px;
+					position: relative;
+					}
+					
+	/*header content*/
+		#hd_cont {
+					background-color: #ffffff;
+					padding: 0px 35px;
+					}
+				
+	/*right*/
+		#right {
+					padding: 0px;
+					width: 130px;
+					height: auto;
+					float:left;
+					margin-top: 5px;
+					margin-left: 20px;
+					position: relative;
+					background-color: #fff;	
+					}
+					
+	/*pageinpage*/
+		#pageinpage{
+					background: #ffffff;
+					margin: 0px;
+					padding: 0px;
+					width: 580px;
+					height: auto;
+					}
+	/*extraborder*/
+		.extraborder {
+					/*	border: 3px double #D0A9AA;
+					-moz-border-radius: 3px;
+					border-radius: 3px; */
+				
+						
+					}
+	/*portfolio*/
+		.portfolio {
+					padding: 9px;
+					/*	border: 3px double #D0A9AA;
+					-moz-border-radius: 3px;
+					border-radius: 3px; */
+					height:100%;
+					box-shadow: 0px 0px 8px 0px  #191970;
+					position: relative; 
+					display:block; 
+					overflow:hidden;
+					background-color: #E8E8E8;	
+text-align: center;					
+					}
+					
+	/*paynow*/
+	.paynow {
+	text-align: center;}
+	
+	.maroon {
+					color: #800000;
+					font: 150%;
+					
+					}
+		
+	/*middle*/
+		#middle {
+					margin: 3px;
+					padding-right: 15px;
+					width: 300px;
+					height: auto;
+					float:right;
+					position: relative;
+					background-color: #fff;	
+					}
+				
+	/*feedburner*/
+		#feedburner{
+					text-align: center;
+					width: 250px;
+					height:1100px;
+					}			
+		
+			
+	/*left*/
+		#left{
+					padding-top: 5px;
+					padding-left: 12px;
+					margin-left: 15px;
+					padding-right: 20px;
+					width: 600px;
+					height: auto;
+					position: relative;
+					float:left;
+					background-color: #fff;	
+					}
+		
+		/*bottom*/
+		#bottom {
+					margin: 3px;
+					padding: 5px;
+					width: 1000px;
+					height: auto;
+					
+				
+					background-color: #fff;	
+					}
+			
+		div.spacer{clear:both; height:10px; display:block;}	
+		
+		div.port{
+					border: thin dashed #800000;
+					margin: 10px;
+					padding-top: 10px;
+				}
+	
+	/*pages*/
+			#pages{
+					background: #ffffff;
+					margin: 0px 10px 10px 0px;
+					padding: 0px 10px 10px 0px;
+					text-align: center;
+					width:580px;
+					height: auto;
+				}
+					
+	/*pages events*/
+			#pagesevents{
+					background: #ffffff;
+					margin: 0px 10px 10px 0px;
+					padding: 0px 10px 10px 0px;
+					text-align: left;
+					width:580px;
+					height: auto;
+				}
+					
+			#contact{
+				text-align: center;
+				}
+		
+		/*footer*/			
+		#footer {
+					font: 90% Georgia, "Times New Roman", Times, serif;
+					border: none;
+					width: 1200px;
+					padding: 10px;
+					margin:auto;
+					clear: left;
+					text-align: center;
+					}
+				
+			
+					
+			
+					
